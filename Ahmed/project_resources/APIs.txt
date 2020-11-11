@@ -1,0 +1,17 @@
+https://rapidapi.com/footballsapi/api/live-score-api/discussions
+https://live-score-api.com/prices
+https://www.api-football.com/pricing
+https://rapidapi.com/api-sports/api/api-football/endpoints
+https://www.football-data.org/documentation/samples
+https://sportdataapi.com/football-soccer-api/
+https://elenasport.io/#pricing-section
+https://rapidapi.com/heisenbug/api/premier-league-live-scores/pricing
+https://stackoverflow.com/questions/38663726/fantasy-premier-league-api
+https://github.com/spinach/FantasyPremierLeague.py
+https://www.reddit.com/r/AskProgramming/comments/8llday/are_there_any_premier_league_apis_to_get_latest/
+https://newsapi.org/
+https://footystats.org/download-stats-csv
+https://datahub.io/sports-data/english-premier-league
+https://www.kaggle.com/thefc17/epl-results-19932018
+https://football-api.com/documentation2/#!/Competitions/get_competitions
+https://towardsdatascience.com/fantasy-premier-league-value-analysis-python-tutorial-using-the-fpl-api-8031edfe9910
