@@ -15,3 +15,11 @@ https://datahub.io/sports-data/english-premier-league
 https://www.kaggle.com/thefc17/epl-results-19932018
 https://football-api.com/documentation2/#!/Competitions/get_competitions
 https://towardsdatascience.com/fantasy-premier-league-value-analysis-python-tutorial-using-the-fpl-api-8031edfe9910
+
+=> using java with okhttp : https://square.github.io/okhttp/4.x/okhttp/okhttp3/
+
+!!!!!!free subcribed APIs!!!!!!! 
+https://dashboard.api-football.com/profile?access
+https://www.football-data.org/documentation/quickstart
+https://app.sportdataapi.com/
+https://elenasport.io/
