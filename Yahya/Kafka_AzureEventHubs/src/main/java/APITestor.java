@@ -6,12 +6,13 @@ public class APITestor {
 		
 		// the date format is yy-mm-dd
 		// the date interval must be smaller than 8 days
-		//System.out.println("Calendar :");
-		//System.out.println(fsAPI.getCalendar("2020-11-9", "2020-11-07").getBody());
-		//System.out.println("Results :");
-		//System.out.println(fsAPI.getResults("2020-11-9", "2020-11-07").getBody());
-		System.out.println("Live Results :");
-		System.out.println(fsAPI.getLiveResults().getBody());
+//		System.out.println("Calendar :");
+//		System.out.println(fsAPI.getCalendar("2020-11-9", "2020-11-07").getBody());
+		System.out.println("Results :");
+		String results = fsAPI.getResults("2020-12-9", "2020-12-08").getBody().toString();
+		System.out.println(results);
+//		System.out.println("Live Results :");
+//		System.out.println(fsAPI.getLiveResults().getBody());
 		
 	}
 
