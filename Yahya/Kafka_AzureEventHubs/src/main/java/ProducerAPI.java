@@ -33,6 +33,10 @@ public class ProducerAPI {
             Properties properties = new Properties();
             properties.load(new FileReader("src/main/resources/producer.config"));
             properties.put(ProducerConfig.CLIENT_ID_CONFIG, "KafkaExampleProducer");
+            // Ahmed : I added the 3 next lines to solve the network exception problem
+//            properties.put(ProducerConfig.RETRIES_CONFIG, "3");
+//            properties.put(ProducerConfig.LINGER_MS_CONFIG, "10000");
+//            properties.put(ProducerConfig.BATCH_SIZE_CONFIG, "163840");
             properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, LongSerializer.class.getName());
             properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
             return new KafkaProducer<>(properties);

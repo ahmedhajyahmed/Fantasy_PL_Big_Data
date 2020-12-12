@@ -33,7 +33,9 @@ public class DataReporter implements Runnable {
             long time = System.currentTimeMillis();
             
             System.out.println("Data #" + i + " from thread #" + Thread.currentThread().getId());
-            String message=fsAPI.getLiveResults().getBody().toString();
+//            String message=fsAPI.getLiveResults().getBody().toString();
+//            String message=fsAPI.getResults("2020-11-9", "2020-11-07").getBody().toString();
+            String message="{\"outcome\":\"tie\",\"score\":2,\"score_opposing\":2}";
             System.out.println(message);
             final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(TOPIC, time,  message);
             producer.send(record, new Callback() {
