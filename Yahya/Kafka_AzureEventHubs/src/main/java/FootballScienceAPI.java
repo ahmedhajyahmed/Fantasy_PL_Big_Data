@@ -1,4 +1,5 @@
 import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
@@ -43,10 +44,10 @@ public class FootballScienceAPI {
 
 	public HttpResponse getLiveResults() {
 		try {
-			HttpResponse<String> response = Unirest.get("https://stroccoli-futbol-science-v1.p.rapidapi.com/s2/live")
+			HttpResponse<JsonNode> response = Unirest.get("https://stroccoli-futbol-science-v1.p.rapidapi.com/s2/live")
 					.header("x-rapidapi-key", this.xRapidAPIKey)
 					.header("x-rapidapi-host", this.xRapidAPIHost)
-					.asString();
+					.asJson();
 			return response;
 		} catch (UnirestException e) {
 			// TODO Auto-generated catch block
